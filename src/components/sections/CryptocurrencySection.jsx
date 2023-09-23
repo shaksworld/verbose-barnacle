@@ -3,6 +3,8 @@ import React from 'react';
 // import ListCoin from '@/components/ListCoin';
 import ListCoin from '../../components/ListCoin';
 
+
+
 const trendingCoins = [{
   image: '/cryptocurrencies/bitcoin.png',
   name: 'Bitcoin',

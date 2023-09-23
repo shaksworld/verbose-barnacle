@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import React, { useEffect, useState } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
+import { Link } from 'react-router-dom';
 
 import Menus from './Menus';
 import PrimaryButton from "../buttons/PrimaryButton";
@@ -59,10 +60,14 @@ export default function Navbar() {
         </div>
         <div className="hidden gap-4 md:flex">
           <SecondaryButton>
-            Sign In
+            <Link to="/signin">
+              Sign In
+            </Link>
           </SecondaryButton>
           <PrimaryButton>
-            Sign Up
+            <Link to="/signup">
+              Sign Up
+            </Link>
           </PrimaryButton>
         </div>
         <div className="md:hidden text-2xl">
@@ -84,10 +89,14 @@ export default function Navbar() {
               <div className="z-20 shadow-xl bg-white p-6">
                 <div className="gap-4 flex mb-6">
                   <SecondaryButton className="w-full">
-                    Sign In
+                    <Link to="/signin">
+                      Sign In
+                    </Link>
                   </SecondaryButton>
                   <PrimaryButton className="w-full">
-                    Sign Up
+                    <Link to="/signup">
+                      Sign Up
+                    </Link>
                   </PrimaryButton>
                 </div>
                 <div className="mb-4">

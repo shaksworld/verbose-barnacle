@@ -14,20 +14,20 @@ export default function Menus() {
       <div className="w-full">
         <a href="/" className='hover:text-primary py-2 block'>Watchlist</a>
       </div>
+      {/*<div className="w-full">*/}
+      {/*  <a href="/" className='hover:text-primary py-2 block'>NFT</a>*/}
+      {/*</div>*/}
       <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>NFT</a>
+        <a href="/" className='hover:text-primary py-2 block'>FAQ</a>
       </div>
-      <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>Portofolios</a>
-      </div>
-      <DropdownMenu>
-        <div className="w-full">
-          <a href="/" className='hover:text-primary py-2 block'>Portofolios</a>
-        </div>
-        <div className="w-full">
-          <a href="/" className='hover:text-primary py-2 block'>Portofoliosx</a>
-        </div>
-      </DropdownMenu>
+      {/*<DropdownMenu>*/}
+      {/*  <div className="w-full">*/}
+      {/*    <a href="/" className='hover:text-primary py-2 block'>Portofolios</a>*/}
+      {/*  </div>*/}
+      {/*  <div className="w-full">*/}
+      {/*    <a href="/" className='hover:text-primary py-2 block'>Portofoliosx</a>*/}
+      {/*  </div>*/}
+      {/*</DropdownMenu>*/}
     </>
   );
 }

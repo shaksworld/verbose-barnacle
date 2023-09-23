@@ -1,10 +1,5 @@
 import React from 'react';
 
-// import partner1 from '@/images/partners/partner1.png';
-// import partner2 from '@/images/partners/partner2.png';
-// import partner3 from '@/images/partners/partner3.png';
-// import partner4 from '@/images/partners/partner4.png';
-
 import partner1 from '../../images/partners/partner1.png';
 import partner2 from '../../images/partners/partner2.png';
 import partner3 from '../../images/partners/partner3.png';
