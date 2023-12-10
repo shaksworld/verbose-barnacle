@@ -20,6 +20,7 @@ export default function StepSection() {
           <h2 className="font-bold text-4xl mb-6 leading-normal">
             Get started in just a few minutes
           </h2>
+          <p>Wherever you are in planning for your future, we’re here to help you evaluate investment and retirement options as you work toward your goals.</p>
           <div className="md:flex justify-center gap-20">
             <Fade up>
               <div className="text-center relative px-4">
@@ -29,7 +30,7 @@ export default function StepSection() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Sign Up</h3>
                 <p className="text-gray max-w-sm">
-                  Buy Bitcoin or Ethereum, then securely store it in your Wallet or send it on easily to friends
+                  Open a savings or checking account, then securely manage your funds online or transfer money easily to friends and family.
                 </p>
               </div>
             </Fade>
@@ -41,16 +42,16 @@ export default function StepSection() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Fund</h3>
                 <p className="text-gray max-w-sm">
-                  Choose your preferred payment method such as bank transfer or credit card to top up your NEFA Wallet
+                  Choose your preferred payment method such as bank transfer or credit card to top up your Discovery Bank account.
                 </p>
               </div>
             </Fade>
             <Fade up delay={1000}>
               <div className="text-center relative px-4">
                 <img src={OkayImage} className="mb-4 mx-auto hover:-translate-y-6 hover:scale-105 transition-all duration-300" alt="" />
-                <h3 className="text-2xl font-bold mb-4">Buy Crypto</h3>
+                <h3 className="text-2xl font-bold mb-4">Check Deposit</h3>
                 <p className="text-gray max-w-sm">
-                  Sign up for your free NEFA Wallet on web, iOS or Android and follow our easy process to set up your profile
+                  Sign up for your free Discovery Bank account on web, iOS, or Android, and follow our easy process to set up your profile.
                 </p>
               </div>
             </Fade>

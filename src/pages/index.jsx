@@ -17,13 +17,13 @@ export default function index() {
   return (
     <Layout>
       <HeroSection />
-      <CryptocurrencySection />
+      {/* <CryptocurrencySection /> */}
+      <StepSection />
       <BuyAndTradeSection />
       <PartnerSection />
       <CreditCardSection />
-      <TradingToolsSection />
+      {/* <TradingToolsSection /> */}
       <SecuritySection />
-      <StepSection />
       <FaqSection />
       <BackToTopSection />
     </Layout>

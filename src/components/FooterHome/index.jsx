@@ -17,19 +17,19 @@ export default function Footer() {
             </div>
             <ul>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Buy Crypto</a>
+                <a href="/" className='text-gray hover:text-primary'>Home</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Exchanges</a>
+                <a href="/" className='text-gray hover:text-primary'>About Us</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Watchlist</a>
+                <a href="/" className='text-gray hover:text-primary'>Contact</a>
               </li>
               <li className='mb-4'>
                 <a href="/" className='text-gray hover:text-primary'>Portfolio</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>NFT</a>
+                <a href="/" className='text-gray hover:text-primary'>FAQ</a>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
           <div className="p-6 w-full lg:col-span-3 xl:col-auto">
             <span className='text-gray'>Newsletter</span>
-            <p className='text-gray font-thin'>Never miss anything crypto when you're on the go</p>
+            <p className='text-gray font-thin'>Never miss anything on Discovery Bank when you're on the go</p>
             <div className="flex gap-4 my-4">
               <div>
                 <input type="email" className="border border-lightgray rounded-xl p-4 outline-none focus:border-primary w-full" placeholder="Enter your email" />
@@ -88,10 +88,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center py-6">
-        <p className="text-gray">© Copyright 2022 NEFA LLC. All rights reserved</p>
-        <small className='text-gray'>
+        <p className="text-gray">© Copyright 2022 Dicovery Bank. All rights reserved</p>
+        {/* <small className='text-gray'>
           Design by Irvan Moses, checkout the repository <a href="https://github.com/dicka88/nefa" className="text-primary" target="_blank" rel='noreferrer'>here</a>
-        </small>
+        </small> */}
       </div>
     </footer>
   );

@@ -50,17 +50,17 @@ export default function FaqSection() {
               Frequently asked questions
             </h2>
             <div className="my-6">
-              <FaqItem open={true} title="Why should I choose NEFA?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={true} title="Why should I choose Discovery Bank?">
+                We're industry pioneers, having been in the banking industry for many years. We've served millions of customers worldwide, offering a wide range of financial services and innovative solutions. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure transactions, and extensive feature set.
               </FaqItem>
-              <FaqItem open={false} title="How secure is NEFA?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={false} title="How secure is Discovery Bank?">
+                We're industry pioneers, having been in the banking industry for many years. We've served millions of customers worldwide, offering a wide range of financial services and innovative solutions. Today, we're trusted by over 8 million customers around the world and have received praise for our top-notch security measures, user-friendly interface, and comprehensive features.
               </FaqItem>
-              <FaqItem open={false} title="Do I have to buy a whole Bitcoin?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={false} title="Do I need a large initial deposit to open an account with Discovery Bank?">
+                We're industry pioneers, having been in the banking industry for many years. We offer various account options to suit your needs, and you don't necessarily need a large initial deposit to get started. We're committed to making banking accessible to everyone.
               </FaqItem>
-              <FaqItem open={false} title="How do I actually buy Bitcoin?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
+              <FaqItem open={false} title="How do I open an account with Discovery Bank?">
+                Opening an account with Discovery Bank is simple. Just visit our website or download our mobile app on iOS or Android. Follow the easy steps to set up your account, and you'll be ready to enjoy the benefits of banking with us.
               </FaqItem>
             </div>
           </div>

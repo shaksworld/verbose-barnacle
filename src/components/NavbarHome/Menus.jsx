@@ -6,13 +6,13 @@ export default function Menus() {
   return (
     <>
       <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>Cryptocurrency</a>
+        <a href="/" className='hover:text-primary py-2 block'>Home</a>
       </div>
       <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>Exchanges</a>
+        <a href="/" className='hover:text-primary py-2 block'>About</a>
       </div>
       <div className="w-full">
-        <a href="/" className='hover:text-primary py-2 block'>Watchlist</a>
+        <a href="/" className='hover:text-primary py-2 block'>Contact</a>
       </div>
       {/*<div className="w-full">*/}
       {/*  <a href="/" className='hover:text-primary py-2 block'>NFT</a>*/}

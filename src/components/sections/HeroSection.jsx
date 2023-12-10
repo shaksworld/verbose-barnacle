@@ -2,7 +2,7 @@ import React from 'react';
 // import { FaWindows, FaLinux, FaAppStore, FaAndroid } from 'react-icons/fa';
 // import globoCrypto from '@/images/illustrations/globe.png';
 // import PrimaryButton from '@/components/buttons/PrimaryButton';
-import GlobalCrypto from '../../images/illustrations/globe.png';
+import GlobalCrypto from '../../images/illustrations/banks.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 import BlueCircleParticle from '../particles/BlueCircleParticle';
 import OrangeCircleParticle from '../particles/OrangeCircleParticle';
